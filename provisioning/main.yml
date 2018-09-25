@@ -32,7 +32,7 @@
         - libffi-dev
         - git-core 
         - curl 
-        
+
     - name: Add autofollow
       lineinfile:
         dest: "/home/vagrant/.bashrc"
@@ -57,4 +57,5 @@
     - role: ntp
     - role: ruby-brightbox
     - role: postgresql
+    - role: nodejs
 

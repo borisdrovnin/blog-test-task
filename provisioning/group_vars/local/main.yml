@@ -2,9 +2,13 @@
 ruby_version: 2.5
 ruby_brightbox_bundler_version: 1.16.1
 
+nodejs_version: "9.x"
 
 postgresql_databases:
   - name: blog_db
 postgresql_users:
   - name: blog_user
     password: blog_password
+    db: blog_db
+    priv: "ALL"
+    role_attr_flags: "CREATEDB"

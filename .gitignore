@@ -53,3 +53,6 @@ build-iPhoneSimulator/
 provisioning/roles/
 \.vagrant/
 *.log
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key

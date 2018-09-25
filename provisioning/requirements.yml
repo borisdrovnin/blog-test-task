@@ -1,8 +1,11 @@
-- src: https://github.com/geerlingguy/ansible-role-ntp
-  name: ntp
-
 - src: https://github.com/vterdunov/ansible-ruby-brightbox
   name: ruby-brightbox
 
+- src: geerlingguy.ntp
+  name: ntp
+
 - src: geerlingguy.postgresql
   name: postgresql
+
+- src: geerlingguy.nodejs
+  name: nodejs
