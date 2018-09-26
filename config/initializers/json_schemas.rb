@@ -1,0 +1,1 @@
+Dir[Rails.root.join('lib','json_schema','**', '*.rb').to_s].each { |schema| require schema }
